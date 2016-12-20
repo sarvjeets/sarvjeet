@@ -35,7 +35,8 @@
                
 <h1>Welcome to my Homepage!</h1>
 
-{% include index.html %}
+{% capture my_include %}{% include index.html %}{% endcapture %}
+{{ my_include | markdownify }}
 
 <div class="img_left">
    <img src="images/sarvjeet.jpg" alt="Sarvjeet Singh" />
