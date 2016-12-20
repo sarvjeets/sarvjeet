@@ -1,0 +1,134 @@
+<!--#set var="name" value="Links" -->
+<html>
+<head>
+    <title>Sarvjeet's Homepage - Links</title>
+    <meta name="generator" content="Sarvjeet Singh" />
+    <meta name="description" content="Sarvjeet Singh's Homepage" />
+    <meta name="keywords" content="sarvjeet, singh, sarvjeet singh, tinku, singh sarvjeet, purdue, jeet, servo, sarvo" />
+    <meta name="robots" content="INDEX, ALL" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="copyright" content="Sarvjeet Singh" />
+    <meta name="language" content="English" />
+    
+    <link rel="stylesheet" type="text/css" href="css/bluesky.css" media="screen, tv, projection" title="Default" />
+    <link rel="alternative stylesheet" type="text/css" href="css/bluesky_large.css" media="screen, projection, tv" title="Larger Fonts" />
+    <link rel="alternative stylesheet" type="text/css" href="css/print.css" media="screen" title="Print Preview" />
+    <link rel="alternative stylesheet" type="text/css" href="css/handheld.css" media="screen" title="Small Layout Preview" />
+    <link rel="stylesheet" type="text/css" href="css/handheld.css" media="handheld" title="Small Layout" />
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+<div id="page">
+    <div id="header">
+        <a href="">
+	   Links
+        </a>
+    </div>
+    <div id="wrapper"> 
+        <div id="content">
+            <div id="path">
+                You are here: <a href="index.html">Home</a> 
+		&raquo; <a href="">Links</a>
+            </div>
+           <div id="main">
+
+<h1>Folders vs Tags</h1>
+<p><a href="http://web.ics.purdue.edu/~singh35/xbel.xml">Here</a> is my old links 
+page. I used to keep my bookmarks organized (and synchronized) using
+<a href="http://www.mozilla.com/firefox/">Firefox</a> and 
+<a href="https://addons.update.mozilla.org/extensions/moreinfo.php?id=14">
+Bookmarks Synchronizer</a> extension.
+But, in time, I have realized that keeping the bookmarks organized by folders is a 
+<a href="http://wiki.osafoundation.org/bin/view/Journal/HierarchyVersusFacetsVersusTags">
+bad idea</a>. So now I have switched to <a href="http://del.icio.us/">Delicious</a>, 
+which uses tags to organize bookmarks. Well, they are <i>almost</i> organized, I just
+need to sit down sometime and add some meaningful tags to 
+<a href="http://del.icio.us/sarvjeet">my bookmarks</a> :-).</p>
+
+<h1>My del.icio.us Tags</h1>
+<p>
+   <script language="JavaScript" type="text/javascript" src="http://del.icio.us/feeds/js/tags/sarvjeet?icon;size=12-30;color=87ceeb-0000ff;title=sarvjeet"> </script>
+</p>
+
+<h1>Recent Bookmarks</h1>
+<p>
+<div id="dummy"></div>
+   <script type="text/javascript" src="http://del.icio.us/feeds/json/sarvjeet?count=20"></script>
+   <script type="text/javascript">
+      function show(li,img1,img){ return (function(){li.replaceChild(img1,img) }) }
+
+      var ul = document.createElement('ul')
+      ul.style.listStyleType = 'none'
+      ul.style.paddingLeft = '0em'
+      for (var i=0, post; post = Delicious.posts[i]; i++) {
+	 var li = document.createElement('li')
+	 var a = document.createElement('a')
+	 a.style.marginLeft = '20px'
+	 
+	 var img = document.createElement('img')
+	 img.style.position = 'absolute'
+	 img.style.display = 'inline'
+	 img.height = img.width = 16
+	 img.src = 'images/list.gif'
+
+	 var img1 = document.createElement('img')
+	 img1.style.position = 'absolute'
+	 img1.height = img1.width = 16
+	 img1.src = post.u.split('/').splice(0,3).join('/')+'/favicon.ico'
+	 img1.onload = show(li, img1, img);
+
+	 li.style.listStyleImage = 'none'
+	 a.setAttribute('href', post.u)
+	 a.appendChild(document.createTextNode(post.d))
+	 li.appendChild(img)
+	 li.appendChild(a)
+	 ul.appendChild(li)
+      }
+      document.getElementById('dummy').appendChild(ul)
+   </script>
+</p>
+            </div>
+        </div>
+        <div id="left">
+            <div id="nav">
+                <h3>Navigation</h3>
+                <div class="inner_box">
+                    <ul>
+		        <li><a href="index.html">Home</a><br />
+			<li><a href="me.html">Myself</a><br />
+			<li><a href="projects.html">Projects</a><br />
+			<li><a href="publish.html">Publications</a><br />
+			<li><a href="cv.html">Resume</a><br />
+			<li><a href="stuff.html">Stuff</a><br />
+			<li><a href="links.html">Links</a>
+                    </ul>                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>
+            Copyright &copy; <a href="index.html">Sarvjeet Singh</a>
+        </p>
+    </div>
+
+</div>
+
+<!-- Begin Google Analytics code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7691380-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End Google Analytics code -->
+
+</body>
+</html>
