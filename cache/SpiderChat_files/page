@@ -1,0 +1,22 @@
+function sa(url,headline_text,source,media_type,cluster,tagline,document_url,harvest_time,access_status,access_registration) 
+{
+   this.url = url;
+   this.headline_text = headline_text;
+   this.source = source;
+   this.media_type = media_type;
+   this.cluster = cluster;
+   this.tagline = tagline;
+   this.document_url = document_url;
+   this.harvest_time = harvest_time;
+   this.access_status = access_status;
+   this.access_registration = access_registration;
+}
+article = new Array(
+  new sa("http://www.edapebaf.com/clickthrough.cool?db=context&position=7001&tid=bhnhbgnibmnibjnkbgnmzexprsrwrx&eid=1&id=80978167&query=computing%3Aweb%20design&clickid=77921078&UNQ=00110262340646043695&cgroup=Webdevelopernews","WebsUnlimited.biz","Ad - http//:www.websunlimited.biz","text","moreover..."," ","http://www.edapebaf.com/clickthrough.cool?db=context&position=7001&tid=bhnhbgnibmnibjnkbgnmzexprsrwrx&eid=1&id=80978167&query=computing%3Aweb%20design&clickid=77921078&UNQ=00110262340646043695&cgroup=Webdevelopernews","Dec 9, 2004 10:14"," "," "),
+  new sa("http://c.moreover.com/click/here.pl?j242080452","Tougher Copyright Laws for Australia ","Slashdot","text","moreover...","","http://yro.slashdot.org","Dec 9, 2004 10:14","",""),
+  new sa("http://c.moreover.com/click/here.pl?j242048902","No Hand Counting of Electronic Votes ","Slashdot","text","moreover...","","http://politics.slashdot.org","Dec 9, 2004 08:49","",""),
+  new sa("http://c.moreover.com/click/here.pl?j242008464","Babylon 5 Movie Starts Filming in April ","Slashdot","text","moreover...","","http://slashdot.org","Dec 9, 2004 06:39","",""),
+  new sa("http://c.moreover.com/click/here.pl?j241983652","Universal Free Dictionary ","Slashdot","text","moreover...","","http://slashdot.org","Dec 9, 2004 04:40","",""),
+  new sa("http://c.moreover.com/click/here.pl?j241953210","New Vulnerability Affects All Browsers ","Slashdot","text","moreover...","","http://it.slashdot.org","Dec 9, 2004 03:11","","")
+);
+ 

@@ -1,0 +1,73 @@
+<!--#set var="name" value="Projects" -->
+<!--#set var="name2" value="Threshold Signatures" -->
+<!--#include virtual="header.shtml" -->
+
+
+<h1>Library for Threshold Signatures</h1>
+<br>
+
+<h2>Introduction</h2>
+<p>We implemented a library for RSA Threshold Signatures based on protocol proposed by Shoup in <A href="http://shoup.net/papers/thsig.pdf">Practical Threshold Signatures</A>. Threshold signature schemes enable a group of n entities share a private signature key in such a way that, for some parameter k, any subset of k entities can collectively create a valid signature on a message, whereas any collection of k-1 or fewer entities cannot. To the best of our knowledge there is no open source Threshold Signature toolkit available. This toolkit was developed in C using OpenSSL Crypto Library. It can be installed on any platform which has openssl crypto library installed.
+[<a href="docs/Intrusion Fault.pdf">Report</a>] [<a href="docs/team2_threshold.pdf">Presentation</a>]
+
+<h2>Authors</h2>
+<p>
+If you find this library useful, please drop us a line.
+<ul>
+  <li><a href="http://www.google.com/recaptcha/mailhide/d?k=01CGoK2ELaAp6j_JvJW9w31A==&amp;c=OzmdkkqlmGrXWR8xZ98jwZdsyaawoDH5UE6uFmj9vUQ=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501CGoK2ELaAp6j_JvJW9w31A\75\75\46c\75OzmdkkqlmGrXWR8xZ98jwZdsyaawoDH5UE6uFmj9vUQ\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Sarvjeet Singh</a> (Primary contact)
+  <li><a href="http://www.google.com/recaptcha/mailhide/d?k=01fFtZdoVsWoVwrgLuqd3qEA==&amp;c=6feKPYqSA20ujIMGzIGWM6NrMuyv4wE1kDCpL3IhVaY=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501fFtZdoVsWoVwrgLuqd3qEA\75\75\46c\0756feKPYqSA20ujIMGzIGWM6NrMuyv4wE1kDCpL3IhVaY\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Abhilasha Bhargav</a>
+  <li><a href="http://www.google.com/recaptcha/mailhide/d?k=01fFtZdoVsWoVwrgLuqd3qEA==&amp;c=bmYlOl_2I1r0Yld3VQ3OorIobciq6_pbNIXnY61enPU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501fFtZdoVsWoVwrgLuqd3qEA\75\75\46c\75bmYlOl_2I1r0Yld3VQ3OorIobciq6_pbNIXnY61enPU\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Rahim Sewani</a>
+</ul>
+</p>
+
+
+<h2>Readme</h2>
+<i>(Please see the README file included in the source for an upto date version of these instructions)</i>
+<p>This library is an implementation of protocol 2 of the Shoup's
+paper - <a href="http://citeseer.ist.psu.edu/shoup99practical.html">Practical Threshold Signatures</a> (<a href="http://shoup.net/papers/thsig.pdf">direct link</a>).
+
+This library uses the <a href="http://www.openssl.org/">OpenSSL</a> crypto library. 
+So, you need have that installed on your system before you can 
+install this library.
+
+<p>See INSTALL (included in the source) for general instructions on how to install this
+library. This library installs the header file (TC.h) in the 
+<prefix>/include directory. The libraries (static and if
+possible shared) is installed in <prefix>/lib.  See TC.h for 
+API for this library.
+
+<p>Normally, you need to run following commands to install this library:
+
+<pre>
+$ cd <path-to-package-diry>
+$ ./configure
+$ make
+# make install
+</pre>
+
+<p>You need to run the last command as root if you are installing
+the package in the default prefix (/usr/local). 
+To compile programs that use this library, pass -lTC flag
+to the cc compiler to link the libTC library.
+
+<p>You can uninstall the library using the command (after ./configure)
+
+<pre>
+# make uninstall
+</pre>
+
+<p>
+
+<h2>Source code</h2>
+<p>
+<ul>
+<li>Library source code: TC-1.0.tar.gz
+<li>Example/demo program(s): Example.tar.gz
+</ul>
+
+<p>
+(If you end up writing a better demo program, please consider sharing it with others. You can send the source to me via email and I can include it here.)
+
+
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

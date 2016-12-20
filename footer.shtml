@@ -1,0 +1,33 @@
+            <!--div class="left_box">
+                <h3>Wise Words</h3>
+                <div class="inner_box">
+                    <p>
+		        <script language="JavaScript" type="text/javascript" src="http://sarvjeet.com/cgi/quote.pl"> </script>
+                    </p>
+                </div>
+            </div-->
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>
+            Copyright &copy; 2007-2012 <a href="index.shtml">Sarvjeet Singh</a>
+        </p>
+    </div>
+
+</div>
+
+<!-- Begin Google Analytics code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7691380-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End Google Analytics code -->
+
+</body>
+</html>

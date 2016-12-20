@@ -1,0 +1,111 @@
+BODY {
+	COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; BACKGROUND-COLOR: #ccccff
+}
+A:link {
+	COLOR: #003366
+}
+A:visited {
+	COLOR: #006699
+}
+A:active {
+	COLOR: #cc8000
+}
+.regtext {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+P {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+UL {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+OL {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+LI {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+H1 {
+	FONT-SIZE: 16px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+H2 {
+	FONT-SIZE: 13px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.topnavextra {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.topnav {
+	FONT-SIZE: 11px; COLOR: #cc3300; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+A.topnav:link {
+	COLOR: #cc3300
+}
+A.topnav:unknown {
+	COLOR: #cc3300
+}
+A.topnav:unknown {
+	COLOR: #cc3300
+}
+A.topnav:hover {
+	COLOR: #333333
+}
+.sidenavtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.sidenavlinks {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff8000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+A.sidenavlinks:link {
+	COLOR: #003366
+}
+A.sidenavlinks:unknown {
+	COLOR: #003366
+}
+A.sidenavlinks:unknown {
+	COLOR: #003366
+}
+A.sidenavlinks:hover {
+	COLOR: #cc3300
+}
+.acthead {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.frontpagelinks {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff8000; LINE-HEIGHT: 15px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+.boxtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.sidebar {
+	FONT-SIZE: 10px; COLOR: #333333; LINE-HEIGHT: 13px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.searchbox {
+	FONT-SIZE: 12px; WIDTH: 130px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.submitbutton {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.browsedrop {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ffffff
+}
+.cattext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.cattextselc {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif
+}
+.categories {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ff8000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+A.categories:hover {
+	COLOR: #cc3300
+}
+.catselc {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+.copyright {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}
+.bottomnav {
+	FONT-SIZE: 10px; COLOR: #cc3300; FONT-FAMILY: Verdana, Geneva, Arial, sans-serif; TEXT-DECORATION: none
+}

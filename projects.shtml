@@ -1,0 +1,111 @@
+<!--#set var="name" value="Projects" -->
+<!--#include virtual="header.shtml" -->
+<h1>Selected Projects</h1>
+<p><a href="publish.shtml">Publications</a> page contains more details about some of these projects.</P>
+<DL>
+
+<DT><B>Orion: A Database System For Managing Uncertain Data</B>
+<DD>
+<div class="img_right">
+   <img src="images/orion_arch.gif" width=300 height=200 alt="Orion System Architecture" />
+</div>
+This project is part of my ongoing research at Department of Computer Science, Purdue University. Orion is a DBMS for handling imprecise
+or uncertain data. This kind of data arise naturally in many applications such as sensors, data integration, bioinformatics etc.
+Orion is an extension of <a href="http://www.postgresql.org/">PostgreSQL</a> and is written in C and PL/pgSQL. I have been actively involved in
+developing the theory, core system and indexing structures for Orion.
+[<a href="http://orion.cs.purdue.edu/">Orion Homepage</a>]
+<BR clear=both>&nbsp;
+
+<DT><B>Zecosystem: An infrastructure for context-aware neural environments</B>
+<DD>The aim of this project was to provide users/students with an intelligent, ubiquitous digital environment for education.
+As part of this project, I developed Cyber Infrastructure (CI) Portal, which is a client/server application that allows a 
+Mobile phone/PDA to control the resources offered by a CI Gateway. Any user who is close to a CI portal can automatically
+connect (with proper authorization) and use the resources controlled by the portal.
+I developed several applications inside CI Portal for 
+demo purposes (e.g. user could launch any application on a Computer display and interact with it using a 
+Mobile phone; or he/she can subscribe to RSS feeds and read stories on web browser on desktop computer which is controlled by 
+a mobile phone etc.). Technologies used: J2ME/Java, Bluetooth, <a href="http://www.avetana-gmbh.de/avetana-gmbh/produkte/jsr82.eng.xml">
+Avetana</a>, Java Native Interface, X11 Events
+<BR>&nbsp;
+
+
+<DT><B>Multilingual, Meaning Based Search Engine (B.Tech Project)</B>
+<DD>The aim of this project was to make a Meaning Based and Multilingual Search Engine (extension of my work at Media Lab Asia). I developed a complete search engine system with modules like crawler, preprocessor, search, page rank etc. Currently it supports English, Hindi and Marathi languages. I designed it such that support for other languages can easily be added. The search was carried on using the meaning of the keywords entered as opposed to keyword based search engines like Google, giving it a broader applicability and greater accuracy than existing models. This search engine retrieves only the knowledge that is relevant and attempts to bridge the language gap by using an underlying, structured language as a backhand translator. The development environment was Linux/Unix and Windows using C++, MYSQL database, mysql++ (library), shell scripting, PHP and HTML. <A href="cache/meaning_news.html">Related News Articles</A>. [<a href="docs/BTP Report.pdf">Report</a>] [<a href="docs/BTP Final Presentation.pdf">Presentation</a>]
+<BR>&nbsp;
+
+<DT><B>Phoebes: An Artificial Creativity Engine for Generating Music</B>
+<DD>Developed a new model for creativity, based on Minsky's model. Specifically for the domain of music, we developed Phoebes, an engine that can be trained with music samples and then asked to generate music on its own, based on a consensus between several mindless agents, each one representing a particular aspect of music. [<a href="docs/Artificial Creativity.pdf">Presentation</a>]
+<BR>&nbsp;
+
+<DT><b>Distributed Banking System</b>
+<DD>Implemented a multi-threaded distributed banking system in Java/RMI supporting distributed transaction processing, concurrency control, logging and recovery for distributed database. Two phase commit was implemented as the final distributed commitment protocol. The distributed nature of transactions coupled with the possibility of failure of any server at any point of time made it a challenging project.
+<BR>&nbsp;
+
+<DT><B>An Online Stock Exchange</B>
+<DD>As the conventional trading floor system disappears from Stock Exchanges, an online approach is adopted to manage the massive amount of data and flow a stock exchange has to handle. We designed a complete system that distributes services over the internet and allows a huge number of concurrent biddings. The system then deals between the users and updates its massive database of equity ownership. Also implemented are safety features and other real life stock market mechanisms.
+[<a href="docs/srs.pdf">Report</a>] 
+<BR>&nbsp;
+
+<DT><B>GUMNAM - A Two way Anonymous Communication Protocol</B>
+<DD>The aim of this project was to design and implement a two way anonymous communication protocol. In this protocol, unlike the other protocols used for anonymity, identity of both the sender and receiver is to be protected. As, a communication cannot be initiated without the knowledge of the second party involved in it, we use a concept of public handle to identify the party that we are trying to reach. We used a semi-trusted third party for this protocol and found a minimal trust model for the communication between entities. This project was implemented in C using Remote Procedure Calls (RPC). [<a href="docs/anonymous.pdf">Report</a>]
+<BR>&nbsp;
+
+<DT><B>Voronoi Diagrams for Moving object Databases</B>
+<DD>Many algorithms are proposed for constructing and maintaining <a href="http://mathworld.wolfram.com/VoronoiDiagram.html">Voronoi Diagrams</a>
+in static or small dynamic environments. Moving object databases pose additional challenges such as huge number of objects (which cannot fit in memory)
+and arbitrary object movements which make the current algorithms unsuitable for these databases. Constructing and maintaining a Voronoi diagram over
+moving objects enable us to answer many queries such as Nearest-Neighbor (NN), Reverse Nearest-Neighbor (R-NN) etc. very efficiently. As part of
+this project, I designed and implemented an efficient algorithm for constructing and maintaining a Voronoi Diagram over moving object databases.
+<BR>&nbsp;
+
+<DT><b>XINU</b>
+<DD>Implemented Proportional Share Schedulers / Process Synchronization/ File System / Virtual Memory / Demand paging / Inter-Process Communication for XINU (UNIX alike OS) Operating System
+<BR>&nbsp;
+
+<DT><b>Library for Threshold Signatures</b>
+<DD>We implemented a library for RSA Threshold Signatures based on protocol proposed by Shoup in <A href="http://shoup.net/papers/thsig.pdf">Practical Threshold Signatures</A>. Threshold signature schemes enable a group of n entities share a private signature key in such a way that, for some parameter k, any subset of k entities can collectively create a valid signature on a message, whereas any collection of k-1 or fewer entities cannot. To the best of our knowledge there is no open source Threshold Signature toolkit available. This toolkit was developed in C using OpenSSL Crypto Library. It can be installed on <i>any</i> platform which has openssl crypto library installed.
+[<a href="docs/Intrusion Fault.pdf">Report</a>] [<a href="docs/team2_threshold.pdf">Presentation</a>]
+
+<BR>&nbsp;
+
+<DT><B>	A Distributed Peer to Peer File Sharing System</B>
+<DD>Developed a Java driven Linux based system for decentralized sharing of files on a Peer to Peer basis. Emulating the paradigm of Network Neighborhood of the Windows platform, the system was extensible enough to identify new hosts wanting to join the community. It also supported an intelligent file search for fishing through files of peers and a smart download management approach to optimize multiple downloads.
+<BR>&nbsp;
+
+
+<DT><B>	Centralized Controller</B>
+<DD>Designed two kind of switches - one master and many slaves (with equal number of push buttons). Master Switch is able to monitor and change state of any one of the slave switches at a given time. It involved designing a protocol for communication and two way communication between master and slave switches. The challenge was to use only one line of communication between master and slaves switches. Project involved design and simulation on VHDL and Xilinx.
+<BR>&nbsp;
+
+
+<DT><B>Indefinite Integrator</B>
+<DD>Made a program in C++, which did Indefinite Integration. I did not hard code the Integration rules but programmed only the domain knowledge of mathematics and ability to learn/deduce rules of Integration (and forget bad rules) through interaction with human users.
+[<a href="docs/integrator.pdf">Report</a>]
+<BR>&nbsp;
+
+<DT><b>Implementation of Mini-ML</b>
+<DD>Implemented a subset of ML (called Mini-ML) using standard ML as the implementation language. Both SML and Mini-ML are mostly-function higher-order programming languages. The compiler supported optimizations such as CPS simplification, simple copy propagation, constant folding and function inlining. The final code generated was an assembly-like code for a virtual machine.
+<BR>&nbsp;
+
+<DT><b>Multi-class classification using SVM</B>
+<DD>We did multi-class classification of the Yahoo! directory using Support Vector Machines (SVM). Project also involved building a simple web-crawler for crawling the yahoo directory. [<a href="docs/svm.pdf">Report</a>]
+<BR>&nbsp;
+
+<DT><b>Computer Vision</b>
+<DD>This project involved registration and Analysis of SAR SLC satellite images. This project was sponsored by Govt. of India.
+<BR>&nbsp;
+
+<DT><b>Java-based compiler for a subset of Pascal language</B>
+<DD>We designed and implemented a compiler for a Pascal like language using the Java based lexer generator <i>JFlex</I> and the LALR parser generator <i>CUP</I>
+<BR>&nbsp;
+
+<DT><b>A Text Editor in 8086 Assembly language</b>
+<DD>Implemented a text editor with features like loading, saving and searching in 8086 assembly language
+<BR>&nbsp;
+
+<DT><b>Four bit CPU</b>
+<DD>The project involved the design and implementation of a four bit CPU. The implementation was done in VHDL using Xilinx tools, followed by downloading the program on an FPGA (Field-Programmable Gate Array).
+<BR>&nbsp;
+</DL>
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

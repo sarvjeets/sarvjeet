@@ -1,0 +1,59 @@
+<!--#set var="name" value="Links" -->
+<!--#include virtual="header.shtml" -->
+<h1>Folders vs Tags</h1>
+<p><a href="http://web.ics.purdue.edu/~singh35/xbel.xml">Here</a> is my old links 
+page. I used to keep my bookmarks organized (and synchronized) using
+<a href="http://www.mozilla.com/firefox/">Firefox</a> and 
+<a href="https://addons.update.mozilla.org/extensions/moreinfo.php?id=14">
+Bookmarks Synchronizer</a> extension.
+But, in time, I have realized that keeping the bookmarks organized by folders is a 
+<a href="http://wiki.osafoundation.org/bin/view/Journal/HierarchyVersusFacetsVersusTags">
+bad idea</a>. So now I have switched to <a href="http://del.icio.us/">Delicious</a>, 
+which uses tags to organize bookmarks. Well, they are <i>almost</i> organized, I just
+need to sit down sometime and add some meaningful tags to 
+<a href="http://del.icio.us/sarvjeet">my bookmarks</a> :-).</p>
+
+<h1>My del.icio.us Tags</h1>
+<p>
+   <script language="JavaScript" type="text/javascript" src="http://del.icio.us/feeds/js/tags/sarvjeet?icon;size=12-30;color=87ceeb-0000ff;title=sarvjeet"> </script>
+</p>
+
+<h1>Recent Bookmarks</h1>
+<p>
+<div id="dummy"></div>
+   <script type="text/javascript" src="http://del.icio.us/feeds/json/sarvjeet?count=20"></script>
+   <script type="text/javascript">
+      function show(li,img1,img){ return (function(){li.replaceChild(img1,img) }) }
+
+      var ul = document.createElement('ul')
+      ul.style.listStyleType = 'none'
+      ul.style.paddingLeft = '0em'
+      for (var i=0, post; post = Delicious.posts[i]; i++) {
+	 var li = document.createElement('li')
+	 var a = document.createElement('a')
+	 a.style.marginLeft = '20px'
+	 
+	 var img = document.createElement('img')
+	 img.style.position = 'absolute'
+	 img.style.display = 'inline'
+	 img.height = img.width = 16
+	 img.src = 'images/list.gif'
+
+	 var img1 = document.createElement('img')
+	 img1.style.position = 'absolute'
+	 img1.height = img1.width = 16
+	 img1.src = post.u.split('/').splice(0,3).join('/')+'/favicon.ico'
+	 img1.onload = show(li, img1, img);
+
+	 li.style.listStyleImage = 'none'
+	 a.setAttribute('href', post.u)
+	 a.appendChild(document.createTextNode(post.d))
+	 li.appendChild(img)
+	 li.appendChild(a)
+	 ul.appendChild(li)
+      }
+      document.getElementById('dummy').appendChild(ul)
+   </script>
+</p>
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

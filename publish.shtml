@@ -1,0 +1,26 @@
+<!--#set var="name" value="Publications" -->
+<!--#include virtual="header.shtml" -->
+<h1>Publications</h1>
+<ol>
+<!--#include virtual="pub.html" -->
+</ol>
+
+<h1>Technical Reports</h1>
+<ol>
+<LI>Y. Qi, Sarvjeet Singh, S. Prabhakar. <b>Optimizing Threshold Queries over Uncertain Data</b>. <i>Department of Computer Science, Purdue University, Tech Report <b>TR-09-003</b>, March 2009.</i>
+<LI>Sarvjeet Singh and S. Prabhakar. <b>Ensuring Correctness over Untrusted Private Databases</b>. <i>Department of Computer Science, Purdue University, Tech Report <b>TR-07-014</b>, June 2007.</i>
+<LI>Sarvjeet Singh, C. Mayfield, R. Shah, S. Prabhakar, S. Hambrusch, J. Neville and R. Cheng. <b>Database Support for Probabilistic Attributes and Tuples</b>. <i>Department of Computer Science, Purdue University, Tech Report <b>TR-07-15</b>, June 2007.</i>
+<LI>Sarvjeet Singh, C. Mayfield, R. Shah, S. Prabhakar and S. Hambrusch. <b>Query Selectivity Estimation for Uncertain Database</b>. <i>Department of Computer Science, Purdue University, Tech Report <b>TR-07-016</b>, June 2007.</i>
+<LI>Sarvjeet Singh. <b>A Multilingual Meaning based Search Engine</b>. <i>BTech Project Report</I> <A href="docs/BTP Report.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<LI>Sarvjeet Singh. <b>Knowledge Representation and Learning for Robotic Systems</b>. <i>BTech Seminar</i> <A href="docs/Btech - Seminar.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<li>Sarvjeet Singh, Rahim Sewani, Abhilasha Bhargav. <b>Intrusion Fault-Tolerance using Threshold Cryptography</b>. <i>Project Report</i> <a href="docs/Intrusion Fault.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<li>Sarvjeet Singh, Abhilasha Bhargav. <b>GUMNAM - A Two-way Anonymous Communication Protocol</b>. <i>Project Report</i> <A href="docs/anonymous.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<LI>Kinshuk Jerath, Sarvjeet Singh, Nikhil Jain, Himanshu Agarwal. <b>Multiclass Classification on Web Data using Support Vector Machines(SVM)</b>. <i>Project Report</i> <a href="docs/svm.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<LI>Shariq Rizvi, Sarvjeet Singh, Alap Karapurkar, Shrinivas Lakshimikant. <b>System Requirement Specification (SRS) for Online Stock Exchange</b>. <i>Project Report</i> <a href="docs/srs.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<li>Sarvjeet Singh, Tushar Chandra, Upmanyu Misra, Ushhan D. Gundevia. <b>Agro-Explorer</b>. <i>Project Report</i> <a href="docs/MEDIA LAB ASIA.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<li>Sarvjeet Singh, Amit Sasturkar. <b>Indefinite Integrator</b>. <i>Project Report</i> <a href="docs/integrator.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+<li>Sarvjeet Singh. <b>NS2 Simulation of TCP over Satellite Links</b>. <i>Project Report</i> <a href="docs/ns2report.pdf"><img src="images/pdf.gif" alt="PDF" border=0></a>
+</ol>
+
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

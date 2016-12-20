@@ -1,0 +1,168 @@
+<!--#set var="name" value="Courses" -->
+<!--#include virtual="header.shtml" -->
+
+<H1>List of courses taken</H1>
+<br />
+<H3>Graduate courses (<A HREF="http://www.cs.purdue.edu">CS, Purdue University</A>)</H3>
+
+  <UL>
+    <LI><B>Fall 2003</B>
+      <UL>
+        <LI>CS 503 - Operating Systems</LI>
+	<LI>CS 541 - Database Systems</LI>
+	<LI>CS 555 - Cryptography</LI>
+      </UL>
+
+    <LI><B>Spring 2004</B>
+      <UL>
+        <LI>CS 502 - Compiling and Programming Systems</LI>
+	<LI>CS 580 - Algorithm Design, Analysis, and Implementation</LI>
+	<LI>CS 590D - Security Topics in Networking and Distributed Systems</LI>
+      </UL>
+
+    <LI><B>Summer 2004</B>
+      <UL>
+        <LI>CS 699 - Research PHD Thesis</LI>
+      </UL>
+
+    <LI><B>Fall 2004</B>
+      <UL>
+        <LI>CS 526 - Information Security</LI>
+	<LI>CS 655 - Advanced Cryptology</LI>
+      </UL>
+
+    <LI><B>Spring 2005</B>
+      <UL>
+        <LI>CS 590D - Data Mining</LI>
+	<LI>CS 590E - Topical Lectures in Information Security</LI>
+	<LI>CS 590S - Randomized and Probabilistic Algorithms</LI>
+      </UL>
+
+    <LI><B>Summer 2005</B>
+      <UL>
+        <LI>CS 590 - Summer Internship at Amazon.com, Seattle, WA</LI>
+      </UL>
+
+    <LI><B>Fall 2005</B>
+      <UL>
+        <LI>CS 590C - Topics in Database Systems Research</LI>
+	<LI>CS 699 - Research PhD Thesis</LI>
+      </UL>
+
+    <LI><B>Spring 2006</B>
+      <UL>
+    	<LI>CS 531 - Computational Geometry</LI>
+	<LI>CS 699 - Research PhD Thesis</LI>
+      </UL>
+
+    <LI><B>Summer, Fall 2006</B>
+    <UL>
+    	<LI>CS 699 - Research PhD Thesis</LI>
+    </UL>
+  </UL> 
+  
+  <BR />
+  
+  <H3>Undergraduate courses (<A href="http://www.cse.iitb.ac.in">CS&amp;E, IIT Bombay</A>)</H3>
+  <UL>
+
+    <LI><B>Fall 1999</B></LI>
+      <OL>
+        <LI>CH 101 - Chemistry I</LI>
+	<LI>CH 115 - Chemistry Lab I</LI>
+	<LI>CS 101 - Computer Programming &amp; Utilization</LI>
+        <LI>HS 101 - Economics</LI>
+	<LI>MA 103 - Mathematics I</LI>
+	<LI>ME 111 - Workshop Practice I</LI>
+        <LI>PH 101 - Physics I</LI>
+	<LI>PH 115 - Physics Lab I</LI>
+	<LI>NO 101 - N.S.O.</LI>
+      </OL>
+
+    <LI><B>Spring 2000</B></LI>
+      <OL>
+        <LI>CH 102 - Chemistry II</LI>
+	<LI>CH 116 - Chemistry Lab II</LI>
+	<LI>EE 152 - Basic Electrical Circuits</LI>
+        <LI>MA 104 - Mathematics II</LI>
+	<LI>ME 112 - Workshop Practice II</LI>
+	<LI>ME 118 - Engineering Graphics &amp; Drawing</LI>
+        <LI>PH 102 - Physics II</LI>
+	<LI>CS 152 - Abstractions and Paradigms for Programming</LI>
+	<LI>CS 154 - Programming Paradigms Lab</LI>
+	<LI>PH 116 - Physics Lab II</LI>
+	<LI>NO 102 - NSO</LI>    
+      </OL>
+
+    <LI><B>Fall 2000</B></LI>
+      <OL>
+        <LI>CS 207 - Discrete Structures</LI>
+        <LI>CS 213 - Data Structures and Algorithms</LI>
+        <LI>EE 261 - Electric Circuits Lab</LI>
+	<LI>HS 203 - Introduction to Psychology</LI>
+	<LI>MA 203 - Mathematics II</LI>
+	<LI>PH 205 - Physics III (Quantum Physics &amp; Applications)</LI>
+        <LI>CS 293 - Data Structures Lab</LI>
+      </OL>
+
+    <LI><B>Spring 2001</B></LI>
+      <OL>
+        <LI>HS 202 - Introduction to Philosophy</LI>
+	<LI>CS 210 - Logic Design</LI>
+	<LI>CS 212 - Electronics Design I</LI>
+	<LI>CS 206 - Formal Methods in CS</LI>
+	<LI>CS 288 - Logic Design Lab</LI>
+	<LI>CS 292 - Electronics Design Lab I</LI>
+        <LI>CS 296 - Software Systems Lab</LI>
+        <LI>MA 212 - Probability, Random Process and Statistical Inference</LI>
+      </OL>
+
+    <LI><B>Fall 2001</B></LI>
+      <OL>
+        <LI>CS 301 - Design and Analysis of Algorithms</LI>
+        <LI>CS 331 - Theory of Computation</LI>
+        <LI>CS 325 - Computer Organisation</LI>
+        <LI>CS 329 - Principles of Programming Languages</LI>
+        <LI>CS 317 - Database and Information Systems</LI>
+        <LI>CS 395 - Assembly Programming Lab</LI>
+        <LI>CS 389 - Programming Languages Lab</LI>
+        <LI>CS 387 - Database and Information Systems Lab</LI>
+        <LI>CS 397 - Works Visit</LI>
+      </OL>
+
+    <LI><B>Spring 2002</B></LI>
+      <OL>
+        <LI>CS 324 - Language Processors</LI>
+        <LI>CS 344 - Artficial Intelligence</LI>
+        <LI>CS 330 - Microprocessors and Interfaces</LI>
+        <LI>CS 619 - Information Retrieval and Mining for Hypertext &amp; the Web</LI>
+        <LI>CS 350 - Linear Optimisation</LI>
+        <LI>CS 390 - Microprocessors and Interfaces Lab</LI>
+        <LI>CS 386 - Artficial Intelligence Lab</LI>
+        <LI>CS 394 - Language Processors Lab</LI>
+        <LI>CS 396 - (Seminar) Knowledge Representation and Learning for Robotic Systems</LI>
+     </OL>
+
+    <LI><B>Fall 2002</B></LI>
+      <OL>
+        <LI>HSS 440 - Industrial Economics</LI>
+        <LI>CS 447 - Operating Systems</LI>
+        <LI>CS 495 - Operating Systems Lab</LI>
+        <LI>CS 451 - Distributed Systems</LI>
+        <LI>CS 623 - Introduction to Computing with Neural Networks</LI>
+        <LI>CS 497 - (B.Tech Project) A Multilingual, Meaning based Search Engine</LI>
+        <LI>CS 388 - Practical Training at MIT Media Lab Asia, Bombay, India</LI>
+      </OL>
+
+    <LI><B>Spring 2003</B></LI>
+      <OL>
+        <LI>CS 456 - Computer Networks</LI>
+        <LI>CS 404 - Quantum Computing</LI>
+        <LI>CS 475 - Computer Graphics</LI>
+        <LI>HS 436 - Indian Culture and Tradition</LI>
+        <LI>CS 498 - (B.Tech Project) A Multilingual, Meaning based Search Engine</LI>
+      </OL>
+
+  </UL>
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

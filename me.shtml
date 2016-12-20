@@ -1,0 +1,24 @@
+<!--#set var="name" value="About Me" -->
+<!--#include virtual="header.shtml" -->
+<h1>My life</h1>
+<p>I was born at an early age. The event was so traumatic I didn't speak for over 
+a year. People in India during the 80's didn't listen to newborns anyway. I must 
+have suffered a terrible childhood, because I don't remember much of it. Or maybe 
+it's just from growing up during the 80's. At a suitable age, I started going to 
+school. Since then I have changed many schools but I'm still not enlightened.</p>
+
+<p>I always thought that I will someday update this page. But that never happened. 
+Finally, I have given up on myself and made a <a href="http://sarvjeets.blogspot.com">
+Blog</a> instead. Check it out, maybe the random thoughts I post over there will 
+give you an good estimate of underlying distribution of ideas inside my brain :-).</p>
+
+<!--p>You can also visit my wife 
+<a href="http://niharika.org">Niharika's</a> blog -
+<a href="http://niharikaranjan.blogspot.com/">Cloud Number 9</a> for some interesting 
+thoughts and fun stuff! She also wrote some good/bad things about me 
+<a href="http://niharika.org/friends.html">here</a>.</p-->
+<br />
+<center><img align=center src="images/aniconst.gif" /><br /><br />
+<small>This page is always under contruction. I will write more when I get time.</small></center>
+<!--#include virtual="nav.shtml" -->
+<!--#include virtual="footer.shtml" -->

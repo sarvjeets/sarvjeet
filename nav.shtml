@@ -1,0 +1,17 @@
+            </div>
+        </div>
+        <div id="left">
+            <div id="nav">
+                <h3>Navigation</h3>
+                <div class="inner_box">
+                    <ul>
+		        <li><a href="index.shtml">Home</a><br />
+			<li><a href="me.shtml">Myself</a><br />
+			<li><a href="projects.shtml">Projects</a><br />
+			<li><a href="publish.shtml">Publications</a><br />
+			<li><a href="cv.shtml">Resume</a><br />
+			<li><a href="stuff.shtml">Stuff</a><br />
+			<li><a href="links.shtml">Links</a>
+                    </ul>                
+                </div>
+            </div>

@@ -1,0 +1,114 @@
+
+function newsitem(url,myabstract,source,sourceurl) {
+   this.url = url
+   this.myabstract = myabstract
+    this.source = source
+   this.sourceurl = sourceurl
+}
+
+
+article = new Array();
+var mycounter = 0;
+var morelike = "http://www.eldis.org/dbtw-wpd/exec/dbtwpcgi.exe?QB0=AND&QF0=QSET@DOCNO&QI0=internet+for+development&MR=20&TN=a1&DF=f1ict&RF=s1ict&DL=0&RL=0&NP=3&MF=eldismsg.ini&AC=QBE_QUERY&XC=%2Fdbtw-wpd%2Fexec%2Fdbtwpcgi.exe&BU=http%3A%2F%2Fwww.eldis.org%2Fsearch.htm";
+var moreliketext = " ... More ICT for development news from Eldis";
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16923&resource=f1ict&n=1","Implementing ICT in schools requires evaluation and contextualised committment","World Bank","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16870&resource=f1ict&n=1","How can  ICT support development efforts?","Capacity.org","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16453&resource=f1ict&n=1","Online discussion on Free and Open Source Software","Asia-Pacifiic Development Information Program (APDIP)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16454&resource=f1ict&n=1","New means of communication and organisiation demand new forms of social service provision","UN Economic Commission for Africa (UNECA / ECA)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16771&resource=f1ict&n=1","Policy-makers must go beyond studying access to improve women and women's NGO use of new communication technologies","United Nations (UN) Economic Commission for Latin America and the Caribbean (ECLAC / CEPAL)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16732&resource=f1ict&n=1","Why knowledge is a significant determinant of long-term economic growth","Policy Research Working Papers, World Bank","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16692&resource=f1ict&n=1","Meeting:  SANGONeT ICTs and Civil Society Conference and Exhibition,  Johannesburg,, 1-3 March 2005","Sangonet (South Africa)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16683&resource=f1ict&n=1","CD-ROM provides off-line participation resources","Informal Working Group on Participatory Approaches & Methods, FAO","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16669&resource=f1ict&n=1","Benchmarks for the establishment of online communities","Benton Foundation","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16135&resource=f1ict&n=1","Fifty authors discuss information societies","Lirne.net","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16563&resource=f1ict&n=1","Workshop: Social science research communication for African research institutes","Global Development Network (GDN)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16556&resource=f1ict&n=1","Report appproves use of Open Source in UK government","Office of Government Commerce","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16555&resource=f1ict&n=1","Floss functions as it’s own sort of community","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16553&resource=f1ict&n=1","Non-profit users generally satisfied with Open Source software","DotOrg Media","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16552&resource=f1ict&n=1","Comparative study of FLOSS use between Japan and the rest of Asia","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16551&resource=f1ict&n=1","Guide describes steps towards establishing successful computer refurbishment centers, particularly in Africa","Bridges.org","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15511&resource=f1ict&n=1","ICT programs in Zambia and India lead to positive gains in both literacy and computer skills","Commonwealth of Learning (COL)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16410&resource=f1ict&n=1","Meeting: 6th Global Conference on Health Promotion: 7-11 August 2005, Bangkok, Thailand","World Health Organization (WHO)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16320&resource=f1ict&n=1","ICT's, the role of the English lanuage and biodiversity conservation","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16307&resource=f1ict&n=1","Cyber shepherds in Senegal","International Development Research Centre (IDRC)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16302&resource=f1ict&n=1","Online training and manuals for computer and internet training in the developing world","Bellanet","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16218&resource=f1ict&n=1","New firms, exporters, availability of ICT and competitive pressure raise innovation","Transformation, Integration and Globalization Economic Research (TIGER), Poland","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14699&resource=f1ict&n=1","GSM communication technology is practically and financially feasible for rural Africa","Swedish International Development Cooperation Agency (Sida)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16194&resource=f1ict&n=1","Survey identifies 10 major trends in Internet's influence on the public","Center for the Digital Future","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16180&resource=f1ict&n=1","Training: new distance learning masters offered at Wye campus","Wye College","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16142&resource=f1ict&n=1","Literature review examines efficacy of community informatics approaches","Joseph Rowntree Foundation","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16133&resource=f1ict&n=1","Collective telecenters must be a priority to ensure latin American internet connectivity","Journal of Community Informatics","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16125&resource=f1ict&n=1","Digital Inclusion Panel examines how to bring the UK together digitally","Cabinet Office","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16077&resource=f1ict&n=1","Strong intellectual property (IP) laws help foster competitive research and development firms, particularly in the information technology sector in India","Indian Institute of Management, Ahmedabad (IIM-A)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC16064&resource=f1ict&n=1","NEPAD's approach to ICT for development","African Forum on Science and Technology for Development (AFSTD), NEPAD","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15999&resource=f1ict&n=1","Forum report summarises need to broaden use of ICT in development","Global Knowledge Partnership / Global Knowledge for Development Conference (GKD97 / GKD)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15913&resource=f1ict&n=1","Can terrorists be prevented from using ICT as a tool for furthering their goals?","Institute for Defence Studies and Analyses (IDSA), India","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15839&resource=f1ict&n=1","Internet advertising in Cameroon","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15838&resource=f1ict&n=1","Mathematical analysis of online discussion networks","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15837&resource=f1ict&n=1","Global survey on egovernance finds slow and variable progress","Inside Politics","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15836&resource=f1ict&n=1","How can e-transparency be put more effectively on the policy agenda?","Information Technology and International Cooperation (ITIC) Programme, SSRC","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15835&resource=f1ict&n=1","ICT and gender advocacy in Latin America","Information Technology and International Cooperation (ITIC) Programme, SSRC","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15834&resource=f1ict&n=1","Training materials on use of  ICTs for improved government transparency","eDevelopment Exchange, IDPM","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15833&resource=f1ict&n=1","African ICT profiles","Research ICT Africa!","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15794&resource=f1ict&n=1","Development Gateway: biased, unaccountable and overpriced?","Bretton Woods Project","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15793&resource=f1ict&n=1","Evaluating the development gateway","Operations Evaluations Division (OED), World Bank","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15791&resource=f1ict&n=1","ICTs for teacher training, Egypt and South Africa","Digital Education Enhancement Project (DEEP), Open University","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15730&resource=f1ict&n=1","The future’s digital: using ICTs for health communication in developing countries","Center for Communication Programs (JHU/CCP), Johns Hopkins University","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15657&resource=f1ict&n=1","Impact of ICTs on political activity","John F. Kennedy School of Government (KSG), Harvard University","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15656&resource=f1ict&n=1","ICT applications in agrometeorology","ICT Update","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15655&resource=f1ict&n=1","ICT and gender in Central and Eastern Europe and CIS","United Nations (UN) Development Fund for Women (UNIFEM)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15654&resource=f1ict&n=1","ICT initiatives for disadvantaged women in South Asia","United Nations (UN) Development Fund for Women (UNIFEM)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15653&resource=f1ict&n=1","Action needed on gender empowerment in the ICT arena","BRIDGE","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15531&resource=f1ict&n=1","Better telecommunications could enhance growth – but developing countries lag behind.","National Institute of Public Finance and Policy (NIPFP), India","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14059&resource=f1ict&n=1","How can ICT help strengthen peace processes?","Info-Share, Sri Lanka","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15202&resource=f1ict&n=1","Using IT to address HIV/AIDS in the Philippines, Thailand and Viet Nam","UNAIDS (Joint United Nations Programme on HIV/AIDS)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14902&resource=f1ict&n=1","Can e-commerce lead to greater access to global markets in South Africa?","Institute of Development Studies (IDS), Sussex, UK","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15432&resource=f1ict&n=1","Implications of developing country software industries for the USA","National Bureau of Economic Research (NBER)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15052&resource=f1ict&n=1","ICTs and local content publishing in India","i4d Journal","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14678&resource=f1ict&n=1","How to change gender relations through photojournalism, Southern Africa","Gender Links (GL), Johannesburg","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15344&resource=f1ict&n=1","Funding: COL - PROTEIN invites proposals for ICT & education initiatives that address rural poverty","Announcements Listing, Eldis","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15338&resource=f1ict&n=1","UK government committee argues for free access to scientific publications","UK Parliament","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15297&resource=f1ict&n=1","ICT support to First Nations communities in Canada","Institute for Connectivity in the Americas (ICAmericas.net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15294&resource=f1ict&n=1","Language and culture in online communication","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15293&resource=f1ict&n=1","Why ICTs have not contributed to national development","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15267&resource=f1ict&n=1","Why did the USA's boom in E-learning go bust?"," Learning Alliance for Higher Education, USA","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15241&resource=f1ict&n=1","Looking at the impacts of networks","Demos","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15231&resource=f1ict&n=1","ICT case studies from CIS and Eastern Europe","Regional Bureau for Europe and the CIS,  United Nations Development Programme (UNDP)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15227&resource=f1ict&n=1","2003 internet penetration and prices in 15 African countries","Research ICT Africa","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15226&resource=f1ict&n=1","Global public goods appraoches to ICT for Development","ICT Policy and Internet Rights, APC","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15215&resource=f1ict&n=1","Is the telephone a neglected technology in open and distance learning?","European Journal of Open and Distance Learning (EURODL)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC15132&resource=f1ict&n=1","ICTs for non-formal education in Africa","Imfundo","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14918&resource=f1ict&n=1","Communication and information services for poor rural communities","Research and Policy in Development (RAPID), ODI","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14870&resource=f1ict&n=1","Investment opportunities in ICT and internet sectors in West Africa","Spintrack IT Advice","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14869&resource=f1ict&n=1","Improving West African internet connectivity using fibre optic cable","Spintrack IT Advice","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14868&resource=f1ict&n=1","Models for sustainable funding of ICT4D projects","Swiss Agency for Development and Cooperation (SDC / DSC)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14853&resource=f1ict&n=1","African programmers on free and Open Source software","Bridges.org","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14840&resource=f1ict&n=1","Use of ICTs in education, Asia and the Pacific","UNESCO Bangkok: Asia and Pacific Regional Bureau for Education","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14798&resource=f1ict&n=1","Does mobile technology hold the key to widening access to ICTs in Africa?","International Telecommunication Union (ITU)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14797&resource=f1ict&n=1","Prospects for open source and low cost computing in Africa","Catalysing Access to ICT in Africa (CATIA)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14796&resource=f1ict&n=1","Why doesn't Africa have an Internet?","Catalysing Access to ICT in Africa (CATIA)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14795&resource=f1ict&n=1","Collection of essays on communicating in the information society","Communication Rights in the Information Society (CRIS)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14793&resource=f1ict&n=1","Report of workshop on ICT and education","Norwegian Network on ICT and Development","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC13902&resource=f1ict&n=1","Lessons on using the internet for women's empowerment","Women's Networking Support Programme (WNSP), APC","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14282&resource=f1ict&n=1","Has the Internet increased developing country trade?","Policy Research Working Papers, World Bank","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14732&resource=f1ict&n=1","Using the internet in Ghana","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14731&resource=f1ict&n=1","Problems for Open Source development","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14730&resource=f1ict&n=1","Using wireless technologies for village connectivity","First Monday","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14729&resource=f1ict&n=1","Using the internet in China","International Institute for Asian Studies (IIAS), Leiden","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14727&resource=f1ict&n=1","Evaluation of  ICT use in 3 agricultural projects in India","Agricultural Research and Extension Network (AgREN)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC13769&resource=f1ict&n=1","Lessons learned in distance education for teacher training, Brazil","International Review of Research in Open and Distance Learning (IRRODL)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14689&resource=f1ict&n=1","Online mobilization and publishing for African civil society","Information Technology and International Cooperation (ITIC) Programme, SSRC","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14684&resource=f1ict&n=1","ICTs and economic development","World Institute for Development Economics Research (UNU/WIDER)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14683&resource=f1ict&n=1","Theory and practice of online learning and teaching","Centre for Distance Education , Athabasca University, Canada","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14611&resource=f1ict&n=1","How can disadvantaged youth take advantage of ICTs?","World Bank","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14597&resource=f1ict&n=1","How can developing countries like India benefit from e-commerce?","Indian Council for Research on International Economic Relations (ICRIER)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14401&resource=f1ict&n=1","Environmental online communication for CBNRM","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14278&resource=f1ict&n=1","ICTs and knowledge management in international networks","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC12241&resource=f1ict&n=1","Knowledge networking and NGOs","Community-Based Natural Resource Management Network (CBNRM Net)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14093&resource=f1ict&n=1","ICT implementation in Uzbekistan","Information Technologies and International Development","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14532&resource=f1ict&n=1","Gender and ICTs in the work of CTA","Technical Centre for Agricultural and Rural Cooperation (CTA)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14488&resource=f1ict&n=1","World Economic Forum - NEPAD E-Readiness Policy Programme to promote the use of ICTs in Africa","Bridges.org","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14455&resource=f1ict&n=1","Using the Post Office to deliver social protection to the Indian poor","Natural Resource Perspectives (NRP), ODI","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14433&resource=f1ict&n=1","Framework for thinking about ICTs, poverty, and development","Information for Development Program (Infodev)","");
+article[mycounter++] = new newsitem("http://www.eldis.org/ds/docdisplay.cfm?doc=DOC14447&resource=f1ict&n=1","Preventing failure in e-governance programes","Institute for Development Policy and Management (IDPM), Manchester","");
+
