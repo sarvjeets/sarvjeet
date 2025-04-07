@@ -66,7 +66,7 @@
         function filterSchedule() {
             let selectedBelts = Array.from(document.querySelectorAll('.belt-filter:checked')).map(cb => cb.value);
             document.querySelectorAll('.class').forEach(classItem => {
-                let className = classItem.querySelector('.name').textContent;
+                let className = classItem.querySelector('.name').getAttribute("data-belts"); // classItem.querySelector('.name').textContent;
                 classItem.style.display = selectedBelts.some(belt => className.includes(belt)) ? 'flex' : 'none';
             });
         }
@@ -81,62 +81,63 @@
             <label><input type="checkbox" class="belt-filter" value="Gold" onclick="filterSchedule()"> Gold</label>
             <label><input type="checkbox" class="belt-filter" value="Orange" onclick="filterSchedule()"> Orange</label>
             <label><input type="checkbox" class="belt-filter" value="Green" onclick="filterSchedule()"> Green</label>
+            <label><input type="checkbox" class="belt-filter" value="Purple" onclick="filterSchedule()"> Purple</label>
             <label><input type="checkbox" class="belt-filter" value="Blue" onclick="filterSchedule()"> Blue</label>
             <label><input type="checkbox" class="belt-filter" value="Brown" onclick="filterSchedule()"> Brown</label>
             <label><input type="checkbox" class="belt-filter" value="Red" onclick="filterSchedule()"> Red</label>
             <label><input type="checkbox" class="belt-filter" value="Black" onclick="filterSchedule()"> Black</label>
-            <label><input type="checkbox" class="belt-filter" value="Teen/Adult" onclick="filterSchedule()"> Teen/Adult</label>
+	    <label><input type="checkbox" class="belt-filter" value="Teen/Adult" onclick="filterSchedule()"> Teen/Adult</label>
         </div>
         <ul class="schedule">
             <li class="day">
                 <h3>Monday</h3>
-                <div class="class"><span class="time">4:00-4:45</span> <span class="name">Brown - Red 1 All Ages</span></div>
-                <div class="class"><span class="time">4:45-5:30</span> <span class="name">Green - Blue 1 All Ages</span></div>
-                <div class="class"><span class="time">5:30-6:00</span> <span class="name">Dragons</span></div>
-                <div class="class"><span class="time">6:00-6:45</span> <span class="name">White Orange & Gold All Ages</span></div>
-                <div class="class"><span class="time">6:45-7:30</span> <span class="name">Black Belts Red/Black</span></div>
-                <div class="class"><span class="time">7:30-8:15</span> <span class="name">Teen/Adult All Ranks</span></div>
+                <div class="class"><span class="time">4:00-4:45</span> <span class="name" data-belts="Brown, Red">Brown - Red I All Ages</span></div>
+                <div class="class"><span class="time">4:45-5:30</span> <span class="name" data-belts="Green, Purple, Blue">Green - Blue I All Ages</span></div>
+                <div class="class"><span class="time">5:30-6:00</span> <span class="name" data-belts="Dragons">Dragons</span></div>
+                <div class="class"><span class="time">6:00-6:45</span> <span class="name" data-belts="White, Orange">White Orange &amp; Gold All Ages</span></div>
+                <div class="class"><span class="time">6:45-7:30</span> <span class="name" data-belts="Black, Red">Black Belts Red/Black</span></div>
+                <div class="class"><span class="time">7:30-8:15</span> <span class="name" data-belts="Teen/Adult">Teen/Adult All Ranks</span></div>
             </li>
             <li class="day">
                 <h3>Tuesday</h3>
-                <div class="class"><span class="time">4:00-4:45</span> <span class="name">Gold - Purple All Ages</span></div>
-                <div class="class"><span class="time">4:45-5:30</span> <span class="name">White - Orange All Ages</span></div>
-                <div class="class"><span class="time">5:30-6:00</span> <span class="name">Dragons</span></div>
-                <div class="class"><span class="time">6:00-6:45</span> <span class="name">Blue - Brown I All Ages</span></div>
-                <div class="class"><span class="time">6:45-7:30</span> <span class="name">Red - Red/Black</span></div>
-                <div class="class"><span class="time">7:30-8:15</span> <span class="name">Teen/Adult All Rank & Black Belts</span></div>
+                <div class="class"><span class="time">4:00-4:45</span> <span class="name" data-belts="Gold, Green, Purple">Gold - Purple All Ages</span></div>
+                <div class="class"><span class="time">4:45-5:30</span> <span class="name" data-belts="White, Orange">White - Orange All Ages</span></div>
+                <div class="class"><span class="time">5:30-6:00</span> <span class="name" data-belts="Dragons">Dragons</span></div>
+                <div class="class"><span class="time">6:00-6:45</span> <span class="name" data-belts="Blue, Brown">Blue - Brown I All Ages</span></div>
+                <div class="class"><span class="time">6:45-7:30</span> <span class="name" data-belts="Red, Black">Red - Red/Black</span></div>
+                <div class="class"><span class="time">7:30-8:15</span> <span class="name" data-belts="Teen/Adult">Teen/Adult All Rank &amp; Black Belts</span></div>
             </li>
             <li class="day">
                 <h3>Wednesday</h3>
-                <div class="class"><span class="time">4:00-4:45</span> <span class="name">Brown- Red 1 All Ages</span></div>
-                <div class="class"><span class="time">4:45-5:30</span> <span class="name">Green - Blue 1 All Ages</span></div>
-                <div class="class"><span class="time">5:30-6:00</span> <span class="name">Dragons</span></div>
-                <div class="class"><span class="time">6:00-6:45</span> <span class="name">White Orange Gold All Ages</span></div>
-                <div class="class"><span class="time">6:45-7:30</span> <span class="name">Black Belts Red/Black</span></div>
-                <div class="class"><span class="time">7:30-8:15</span> <span class="name">Teen/Adults All Ranks</span></div>
+                <div class="class"><span class="time">4:00-4:45</span> <span class="name" data-belts="Brown, Red">Brown - Red I All Ages</span></div>
+                <div class="class"><span class="time">4:45-5:30</span> <span class="name" data-belts="Green, Purple, Blue">Green - Blue I All Ages</span></div>
+                <div class="class"><span class="time">5:30-6:00</span> <span class="name" data-belts="Dragons">Dragons</span></div>
+                <div class="class"><span class="time">6:00-6:45</span> <span class="name" data-belts="White, Orange, Gold">White - Gold All Ages</span></div>
+                <div class="class"><span class="time">6:45-7:30</span> <span class="name" data-belts="Red, Black">Black Belts Red/Black</span></div>
+                <div class="class"><span class="time">7:30-8:15</span> <span class="name" data-belts="Teen/Adult">Teen/Adults All Ranks</span></div>
             </li>
             <li class="day">
                 <h3>Thursday</h3>
-                <div class="class"><span class="time">4:00-4:45</span> <span class="name">Gold - Purple All Ages</span></div>
-                <div class="class"><span class="time">4:45-5:30</span> <span class="name">White - Orange All Ages</span></div>
-                <div class="class"><span class="time">5:30-6:00</span> <span class="name">Dragons</span></div>
-                <div class="class"><span class="time">6:00-6:45</span> <span class="name">Blue - Brown I All Ages</span></div>
-                <div class="class"><span class="time">6:45-7:30</span> <span class="name">Red - Red/Black</span></div>
-                <div class="class"><span class="time">7:30-8:15</span> <span class="name">Teen/Adult All Rank & Black Belts</span></div>
+                <div class="class"><span class="time">4:00-4:45</span> <span class="name" data-belts="Gold ,Green, Purple">Gold - Purple All Ages</span></div>
+                <div class="class"><span class="time">4:45-5:30</span> <span class="name" data-belts="White, Orange">White - Orange All Ages</span></div>
+                <div class="class"><span class="time">5:30-6:00</span> <span class="name" data-belts="Dragons">Dragons</span></div>
+                <div class="class"><span class="time">6:00-6:45</span> <span class="name" data-belts="Blue, Brown">Blue - Brown I All Ages</span></div>
+                <div class="class"><span class="time">6:45-7:30</span> <span class="name" data-belts="Red">Red - Red/Black</span></div>
+                <div class="class"><span class="time">7:30-8:15</span> <span class="name" data-belts="Teen/Adult">Teen/Adult All Rank &amp; Black Belts</span></div>
             </li>
             <li class="day">
                 <h3>Friday</h3>
-                <div class="class"><span class="time">4:15-4:45</span> <span class="name">Dragons Purple-Black Sparring Class Gear Required</span></div>
-                <div class="class"><span class="time">4:45-5:30</span> <span class="name">Gold - Blue I</span></div>
-                <div class="class"><span class="time">5:30-6:15</span> <span class="name">Brown to Black belt Juniors</span></div>
-                <div class="class"><span class="time">6:15-7:00</span> <span class="name">Teen/Adult Gold On Up</span></div>
+                <div class="class"><span class="time">4:15-4:45</span> <span class="name" data-belts="Dragons">Dragons Purple-Black Sparring Class Gear Required</span></div>
+                <div class="class"><span class="time">4:45-5:30</span> <span class="name" data-belts="Gold, Green, Purple, Blue">Gold - Blue I</span></div>
+                <div class="class"><span class="time">5:30-6:15</span> <span class="name" data-belts="Brown, Red, Black">Brown to Black belt Juniors</span></div>
+                <div class="class"><span class="time">6:15-7:00</span> <span class="name" data-belts="Teen/Adult">Teen/Adult Blue On Up</span></div>
             </li>
             <li class="day">
                 <h3>Saturday</h3>
-                <div class="class"><span class="time">7:00</span> <span class="name">Black Belt Training Off Site</span></div>
-                <div class="class"><span class="time">9:30-10:15</span> <span class="name">Gold - Purple All Ages</span></div>
-                <div class="class"><span class="time">10:15-11:00</span> <span class="name">Blue on Up All Ages</span></div>
-                <div class="class"><span class="time">11:00-12:30</span> <span class="name">Special Class (As Scheduled)</span></div>
+                <div class="class"><span class="time">7:00</span> <span class="name" data-belts="Blacl">Black Belt Training Off Site</span></div>
+                <div class="class"><span class="time">9:30-10:15</span> <span class="name" data-belts="Gold, Green, Purple">Gold - Purple All Ages</span></div>
+                <div class="class"><span class="time">10:15-11:00</span> <span class="name" data-belts="Blue, Brown, Red, Black">Blue on Up All Ages</span></div>
+                <div class="class"><span class="time">11:00-12:30</span> <span class="name" data-belts="">Special Class (As Scheduled)</span></div>
             </li>
         </ul>
     </div>
